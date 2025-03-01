@@ -14,7 +14,11 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Enable GitHub Pages
+## Step 1: PROJECT PAGES
+1. Defender for Endpoint
+2. Explore Defender XDR
+3. Defender for cloud
+4. Microsoft Sentinel
 
 _Welcome to GitHub Pages and Jekyll :tada:!_
 
