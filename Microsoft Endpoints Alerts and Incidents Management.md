@@ -5,6 +5,6 @@ _note: from the picture you can see the Incident name, sevrerity, investigation 
 ![GitHub Logo](https://media-hosting.imagekit.io//e6ab57b3dc4149ee/powershell%20endpoint%20incident.png?Expires=1835438079&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Xyidj0uFEVcFhGHdwJVmA0PKbjNbTT79L0ByRm0YfGpZJbVYqj5oBfOE5jkTm-eTgT3dLrawRi-cbUtMG0UoPR1KQ8C2~2U11gxWtPRv9oO6KVGFdSbPtDzR9TVONkYW2W1HSssPKU00T6qpM9DA4YwvvG4ZXo2XE~owa-2qGL7o4cY1vyKDcHdExnks-puUhTXJs~UhQjK8ubIMLsBXyL14ONaA-PggNaA0kpdcyMesbMufrdkssYqWDn0lmS0rVz4G4tOzzPf~5719C~NoGE9Y5rf0koN1Bz1QGtNyhRD-CEquKv8zLikpD7ObsAje-ZNH2Amiv0OHSRWJ-igxTg__)
 2. Click on any alert in order to know more information about the alert
 3. Click on open incident page
-4. click on manage alert on the top right corner to change the status of the incident, assign it to a user, and put a classification for example, phishing, malware, multi staged etc. and save
+4. click on manage alert on the top right corner to change the status of the incident, assign it to a user, and put a classification for example, phishing, malware, multi staged etc. and save. ![GitHub Logo](https://media-hosting.imagekit.io//e5f552b3fdb24779/incidents%20and%20alert.png?Expires=1835442720&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zxhRs-xd3teZ8nwdh3I2rzc5TgYN2WwpVVAwUOYrrBw~Meuik~1bcTIBpS-2TwXp9jVhEazM36PdVKNm2usTFKqE5UTS4zZldFds0GIlsMbaIiHEYu~FzCuVmBzNWidaCHsjMVw0BbxaElPNAP23qMOvmZ6snh~01mVGnOOXgB4~ULnAbUjBuMpI4cEnFSl~Uu7cWmZuYXWH8iLsX1Ehl2cGHhb4O45XZZhB31kN8-n72i1fscyPqZ-LxckbeYbTjqQG~kxzj8C042AISKkJQbIL4aAhmnlzia~Q-WTGpeoD1ebgUjUYzur-~EX6y2wHu7JCwg~xhFHrgbkvKzyFmA__)
 6. 
 
