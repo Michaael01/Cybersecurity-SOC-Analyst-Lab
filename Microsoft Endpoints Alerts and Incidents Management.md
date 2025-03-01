@@ -27,8 +27,8 @@ A false posive alert can be supressed from tune alert. It is also known as alert
 #### Process Tree
 The process tree console is located inside Alert Story as shown the picture below. The alert story displays all assets or entities related to the alert in a process tree view. 
 - The Process tree displaysthe actual time each powershell script was ran.
-- If I click on any of the powershell, it will display more information about the type of script that was ran in powershell
-- process tree give information such as the path where for example a malware is located
+- If I click on any of the powershell, it will display more information about the type of script that was ran in powershell.
+- process tree give information such as the path where for example a malware is located.![GitHub Logo](https://media-hosting.imagekit.io//e6ab57b3dc4149ee/powershell%20endpoint%20incident.png?Expires=1835438079&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Xyidj0uFEVcFhGHdwJVmA0PKbjNbTT79L0ByRm0YfGpZJbVYqj5oBfOE5jkTm-eTgT3dLrawRi-cbUtMG0UoPR1KQ8C2~2U11gxWtPRv9oO6KVGFdSbPtDzR9TVONkYW2W1HSssPKU00T6qpM9DA4YwvvG4ZXo2XE~owa-2qGL7o4cY1vyKDcHdExnks-puUhTXJs~UhQjK8ubIMLsBXyL14ONaA-PggNaA0kpdcyMesbMufrdkssYqWDn0lmS0rVz4G4tOzzPf~5719C~NoGE9Y5rf0koN1Bz1QGtNyhRD-CEquKv8zLikpD7ObsAje-ZNH2Amiv0OHSRWJ-igxTg__)
 
 
 
