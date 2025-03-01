@@ -4,7 +4,7 @@
 
 Tip: You can also perform device onboarding in the Resources section of the left menu bar. Expand Resources and select Devices. On the Device Inventory page, with PCs and Mobiles selected, scroll down to Onboard Devices. This will take you to the Settings > Endpoints page .
 
-3. In the "1. When onboarding a device area set the Deployment Method drop-down menu to "Local Script (for up to 10 devices)" and select the Download Onboarding Package button .
+3. In the "1. When onboarding a device area set the Deployment Method drop-down menu to "Local Script (for up to 10 devices)" and select the Download Onboarding Package button . ![GitHub Logo](https://media-hosting.imagekit.io//691820e75b8e460f/onboarding%20package.png?Expires=1835433296&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=z4TuqZfdmqoR78WkzBhyUFMbwWRMu54RSKNSFVVS0tbc2THkN12HKspv6U-~qc1tx5jUs7OErQNyzJco2mE-a33vHqr0iVffbxTMIQBvg2eswyxWeqD-CBDUtM1h6yJOPya8XV2OwRftYYDoH-DZX9aCiZ5hDD8w7flOylQidLDKq6g7nG7NW75g4mQHXD-nUcD0ZE92SRueCR7o4J87Mo65FJTDFuISxcz74e6TslRS0toalV3uHsrcAQWz4fyLpmMt05M6fc9--a2Q3MYa1oCuykiCKE5hje5-ZIPo9BrNtPlIFLO7H4c-zi9gUqb85UxpDoOeM3f2jlkZ8CYxiA__)
 4. In the Downloads pop-up window , highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon** Show in folder**. Tip: In case you don't see it, check the c:\users\admin\downloads directory.
 5. Right-click the downloaded ZIP file and select Extract All... , make sure Show extracted files when complete is checked, and select Extract .
 
