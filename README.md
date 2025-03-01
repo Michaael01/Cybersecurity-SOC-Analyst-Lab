@@ -1,6 +1,6 @@
 <header>
 
-# GitHub Training
+# SC 200 Project: Microsoft Security Opertaions Analyst
 
 _Create a site or blog from your GitHub repositories with GitHub Pages._
 
