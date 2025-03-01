@@ -8,10 +8,15 @@ _note: from the picture you can see the Incident name, sevrerity, investigation 
 ## Investigating Alert
 From the the incident page:
 
-1. Click on manage alert on the top right corner to change the status of the incident, assign it to a user, and put a classification for example, phishing, malware, multi staged etc. and save. This will make other team member that the incident alert is being investigated by Oluwatosin ![GitHub Logo](https://media-hosting.imagekit.io//e5f552b3fdb24779/incidents%20and%20alert.png?Expires=1835442720&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zxhRs-xd3teZ8nwdh3I2rzc5TgYN2WwpVVAwUOYrrBw~Meuik~1bcTIBpS-2TwXp9jVhEazM36PdVKNm2usTFKqE5UTS4zZldFds0GIlsMbaIiHEYu~FzCuVmBzNWidaCHsjMVw0BbxaElPNAP23qMOvmZ6snh~01mVGnOOXgB4~ULnAbUjBuMpI4cEnFSl~Uu7cWmZuYXWH8iLsX1Ehl2cGHhb4O45XZZhB31kN8-n72i1fscyPqZ-LxckbeYbTjqQG~kxzj8C042AISKkJQbIL4aAhmnlzia~Q-WTGpeoD1ebgUjUYzur-~EX6y2wHu7JCwg~xhFHrgbkvKzyFmA__)
-
+1. Click on manage alert on the top right corner to change the status of the incident, assign it to a user, and put a classification for example, phishing, malware, multi staged etc. and save. This will make other team member that the incident alert is being investigated by Oluwatosin.
+![GitHub Logo](https://media-hosting.imagekit.io//e5f552b3fdb24779/incidents%20and%20alert.png?Expires=1835442720&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zxhRs-xd3teZ8nwdh3I2rzc5TgYN2WwpVVAwUOYrrBw~Meuik~1bcTIBpS-2TwXp9jVhEazM36PdVKNm2usTFKqE5UTS4zZldFds0GIlsMbaIiHEYu~FzCuVmBzNWidaCHsjMVw0BbxaElPNAP23qMOvmZ6snh~01mVGnOOXgB4~ULnAbUjBuMpI4cEnFSl~Uu7cWmZuYXWH8iLsX1Ehl2cGHhb4O45XZZhB31kN8-n72i1fscyPqZ-LxckbeYbTjqQG~kxzj8C042AISKkJQbIL4aAhmnlzia~Q-WTGpeoD1ebgUjUYzur-~EX6y2wHu7JCwg~xhFHrgbkvKzyFmA__)
 On the incident page we can see the evidences that will give more information about the incident alert
 2. Scroll down the right side of the incident page to Evidence
 ![GitHub Logo](https://media-hosting.imagekit.io//11bcbb935f184b06/evidence.png?Expires=1835444315&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=FtuLcPehkGvzsjgAuImdg8mZZIvlbhBwSKDUlzTeQJG-g-3mWm9GfGsnuh3b8GeE6J-x2RxY3H7xSbE2QN7Vf~WbRyzVvM-MqqjNaAvychJvMi~eYSAv0PIzaEq8nFDDK1OEs6yGgdw8dyTANO018drbycK9ddk1dTt54O9hiElcrdEaLjIz8e9hUxl8zmNk2mwqIGUJrJCKQhbrMJ-cJhS~VQL5RsZXOgiEElkxWFhgqaC5mOZIUNOhMbIieOvzNag6k9WVFtzIFcgb-d9dd0nK2rVbaAojNP5jfrL7Rp6DUWjmsXlR7iZ3qrIcCZueV9Ftb9ngCyuR8cjGoNeENg__)
+
+3.
+4.
+5. 
+
 
 
