@@ -30,5 +30,12 @@ The process tree console is located inside Alert Story as shown the picture belo
 - If I click on any of the powershell, it will display more information about the type of script that was ran in powershell.
 - process tree give information such as the path where for example a malware is located.![GitHub Logo](https://media-hosting.imagekit.io//e6ab57b3dc4149ee/powershell%20endpoint%20incident.png?Expires=1835438079&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Xyidj0uFEVcFhGHdwJVmA0PKbjNbTT79L0ByRm0YfGpZJbVYqj5oBfOE5jkTm-eTgT3dLrawRi-cbUtMG0UoPR1KQ8C2~2U11gxWtPRv9oO6KVGFdSbPtDzR9TVONkYW2W1HSssPKU00T6qpM9DA4YwvvG4ZXo2XE~owa-2qGL7o4cY1vyKDcHdExnks-puUhTXJs~UhQjK8ubIMLsBXyL14ONaA-PggNaA0kpdcyMesbMufrdkssYqWDn0lmS0rVz4G4tOzzPf~5719C~NoGE9Y5rf0koN1Bz1QGtNyhRD-CEquKv8zLikpD7ObsAje-ZNH2Amiv0OHSRWJ-igxTg__)
 
+# Possible Resolution
 
+## Missing KBs
+This will allow us to check if there is any missing patches on the computer. This can be done by:
+- Go to assets and click Devices
+- Click on the machine that is being investigated which is win-dt7hjifjncb in my case
+- Click on Missing KBs. In my case, it looks fine. ![GitHub Logo](https://media-hosting.imagekit.io//ed0d6f9c908545e7/Missing%20KBs.png?Expires=1835468257&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=t5vrqofrtiRwnznJqicwXwgdF7zktbmoE3q7QSZhelkocTY3ceR-u0E3jynuDzfDqlixkolFLC6uTm38z0krZHmBS5REylPMInlaW7ZAI1dQNWi2WOcEFWTl89lIIgqjelqQ4AU7MXepHh6kNNUTEp-0lQyVH1Zri4q4AygeQ~3JWFfJLl4EpeLU~AYdVNAwjVwM5I6h6pzHLGTvcY89nVoRAUYRV2K4oehmeiL0MFjCapPd5FmY0puegcJhLIdoUb0tLCuA~cIqD594v382psC01aJJzlESvVphAiw6l19l53Ok0uty7QrIhnhz8RSSCj0Gnary0rdxoZgKVybX7g__)
 
+### More Actions
