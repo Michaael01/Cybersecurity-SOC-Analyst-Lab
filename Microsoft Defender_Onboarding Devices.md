@@ -2,7 +2,7 @@
 1. In the Defender XDR portal, in the left navigation menu, scroll down, expand the System section , select Settings , then on the Settings page, select Endpoints.
 2. Select Onboarding in the Device Management section.
 
-Note: You can also perform device onboarding in the Resources section of the left menu bar. Expand Resources and select Devices. On the Device Inventory page, with PCs and Mobiles selected, scroll down to Onboard Devices. This will take you to the Settings > Endpoints page .
+Tip: You can also perform device onboarding in the Resources section of the left menu bar. Expand Resources and select Devices. On the Device Inventory page, with PCs and Mobiles selected, scroll down to Onboard Devices. This will take you to the Settings > Endpoints page .
 
 3. In the "1. When onboarding a device area set the Deployment Method drop-down menu to "Local Script (for up to 10 devices)" and select the Download Onboarding Package button .
 4. In the Downloads pop-up window , highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon** Show in folder**. Tip: In case you don't see it, check the c:\users\admin\downloads directory.
@@ -16,4 +16,4 @@ Tip: If your browser is blocking the download, take an action in the browser to 
 6. Right-click the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select Properties . Select the Unblock checkbox at the bottom right of the Properties windows and select OK .
 7. Right-click the extracted "WindowsDefenderATPLocalOnboardingScript.cmd" file again and choose Run as administrator . Tip: If you encounter the Windows SmartScreen window, select More info and choose Run anyway.
 8. When the "User Account Control" window appears, select Yes to allow the script to run and answer Y to the question presented by the script, and press Enter . When you're done, you should see a message on the command screen that says Machine successfully onboarded to Microsoft Defender for Endpoints.
-9 Press any key to continue. This closes the Command Prompt window.
+9. Press any key to continue. This closes the Command Prompt window.
