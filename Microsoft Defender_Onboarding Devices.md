@@ -10,7 +10,6 @@ Tip: You can also perform device onboarding in the Resources section of the left
 
 
 
-
 Tip: If your browser is blocking the download, take an action in the browser to allow the download. In the Microsoft Edge browser, you may see the message " WindowsDefenderATPOnboardingPackage.zip does not download normally. Make sure you trust... , select the ellipsis (...) button if necessary, and then select Keep . In Microsoft Edge, a second pop-up appears with the message " Make sure you trust WindowsDefenderATPOnboardingPackage.zip before opening it ," select Show more to expand the selections, and select Keep anyway.
 
 6. Right-click the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select Properties . Select the Unblock checkbox at the bottom right of the Properties windows and select OK .
