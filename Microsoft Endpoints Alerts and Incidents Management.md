@@ -45,3 +45,12 @@ This will allow us to check if there is any missing patches on the computer. Thi
 - Initiate Automated Investigation: This will go to every singl bit of the device to see if any process was left behind. To be sure that the device is clean from any other threats. ![GitHub Logo](https://media-hosting.imagekit.io//b2c21021b69441d1/automated%20investigation.png?Expires=1835470165&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XKeWJEBbp1ZuUGEjjr89a45liA7iUEPagJG~yVSvi~RxcEejlcxiRBb9T9XnFbjjf2wQjz97p-7YhY6kc1lVkzYbNrm1LlIuJQcFVj4Ro2GxqccJtjWeLU3zU~TEztNOK3f27FnXA4Q-6Uh7yCD8I1My8i3Aw7G~m8-19Oxh0fIFT7pj5Fnj~PZ8bk9g-3rJsXgP46wwJBoE8ZYr1ZBg80tBitH5uofWUVcp-2gn04t1v9SJWBABmm~865ODYU~EKTDIniBquDAz2pxJCJPgH0B4TbOWe3oKNxL8ICITpR0KIIkTwuTXr~zABU8XrGwQVQJifU29fT9~fZbMJ3GN6g__)
 - Isolate Device: If some threats are still available on the device or the current threat is someone how critical that could lead to further threats to other machine on the network, I will initate a device isotion as shown below. ![GitHub Logo](https://media-hosting.imagekit.io//4f5c29359aeb4ef2/isolated.png?Expires=1835471305&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ko8cOZsvkaQfxlkm05OJZwQvBG6BqeGSEyA~eUda3JCsoaq-AoWnDfwFHCu-7tuHF2PwyFP2IZ80tu8uOujR-sDPUHPybsyew3e07M3~GcTfz1-KCu04WqqDPIovZqs3CaER4dXFANfqhZgXtnfdyvUQc1rQAmgfgo6XUaJsP-fWLIlps0uTEJ7ETgJBfkgBXia4OESk5rLe5vn2xC31KrOe8slX4dVwmO6CnXJf4PRCgh3Ui1mRVee0Crrp12riNouxxO4-rrPHIY0QkdLjPgmz5u7IbsQqYQSq-kth46h0MGmPZ83kwl09ThI7zcB8aHRLIPOYjPCRtsxxXSdIKQ__)
 - _Here is the reaction I got from my isolated device which shows the device is not longer on the network_. ![GitHub Logo](https://media-hosting.imagekit.io//3a7b747169264e32/effect%20of%20isolated%20device.png?Expires=1835471527&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=H4wLBkBDQy2nkYYsPBAv3BfCUxH01M1YMCmExvNPicF6OKytuzzNedcitosU0jAFSll3feuL-x2jwmS-CYnlslmJUQSa0H8E07s5ILH0oVh19~Y6NZ21EyatOKWmGOLpnJt8iYAgB1VshChSH1V6o-lNRjvS2eAakobOp3VV7fJdorcowqcNjpNe44wdGT-wXt0PmK8SRLMVEGmq0erKM8osUa~VwEy9oLEe1KEUhfXVuej6P4RLS-n1vkdv6tztlrwBn6prxShNeIuyyWSxymRDDh~4JHCAM-ErRonU~Rtat56EQJi7nlOpKBJO6B-~iuQpu7CtJDJ~pKxv0F0Z4w__)
+
+
+
+
+
+- LINKS.
+  1. https://learn.microsoft.com/en-us/defender-xdr/investigate-alerts?tabs=settings
+  2. https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-security-center-mde
+  3. https://www.google.com/search?q=Alerts+%26+incidents+management+github&oq=Alerts+%26+incidents+management+github&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDQxMjdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
