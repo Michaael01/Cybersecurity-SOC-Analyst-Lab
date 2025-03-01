@@ -19,6 +19,7 @@ Tip: If your browser is blocking the download, take an action in the browser to 
 
 ## Run a detection test
 1. To verify that the device is properly onboarded and reporting to the service,run the detection script on the newly onboarded device:
+2. Open a Command Prompt window
+3.  At the prompt, copy and run the command below. The Command Prompt window will close automatically.
 
-a. Open a Command Prompt window
-b. At the prompt, copy and run the command below. The Command Prompt window will close automatically. powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
+powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
