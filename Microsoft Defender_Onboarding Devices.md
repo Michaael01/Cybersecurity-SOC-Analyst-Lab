@@ -16,3 +16,9 @@ Tip: If your browser is blocking the download, take an action in the browser to 
 7. Right-click the extracted "WindowsDefenderATPLocalOnboardingScript.cmd" file again and choose Run as administrator . Tip: If you encounter the Windows SmartScreen window, select More info and choose Run anyway. ![GitHub Logo](https://media-hosting.imagekit.io//30d939c76da4401c/onboarding%20a%20device.png?Expires=1835434290&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Dm0jWuqfWvMd4xOHcXS6mDt9vAvIUnZShHJJo~j0xyv1oogtEdkoHSLjS-LqYEqaE3p-XPqB~8wnC6xuqRsPyNWnB2QO6x65kwbAYnV6jl0K9iZWH0k2bleYFiY4oZLyr9jyG6dPQZL5mtl65O7wEUBqR3dnVVCpEk9y-KwYRLNxckgp~QHwFAw4LR8-QLXn0WHz-Z-AzJU~6vBPhpJf2gs9afuNk4aSpQ5u~SOGz1hakJiwg23~AaOnISwS9LerxRweAlF7jN-bUJxG3yOik3bhalp2egpu490nIHUrDZigtkhs-r50XZZpPWpNZoRMpzklErKCUw~E5I6ZDD0Wmg__)
 8. When the "User Account Control" window appears, select Yes to allow the script to run and answer Y to the question presented by the script, and press Enter . When you're done, you should see a message on the command screen that says Machine successfully onboarded to Microsoft Defender for Endpoints.
 9. Press any key to continue. This closes the Command Prompt window.
+
+## Run a detection test
+1. To verify that the device is properly onboarded and reporting to the service,run the detection script on the newly onboarded device:
+
+a. Open a Command Prompt window
+b. At the prompt, copy and run the command below. The Command Prompt window will close automatically. powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
