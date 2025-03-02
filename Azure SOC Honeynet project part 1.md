@@ -39,3 +39,11 @@ The log resipotory will help to forward our logs to Azure
 1. Went to Log Analytic Workspaces and click on creat log analytics workspace and attached it to SocRG resource group
 2. Go to Sentinel and refresh.
 3. Select the Log analytics and click on Add. This will link log analytic workspaces to our SIEM or sentinel instance in order to access the logs in our log repository from SIEM. SIEM will help to collect and analyze data from any source, cloud or on-premise. ![GitHub Logo](https://media-hosting.imagekit.io//67f11e9d32044f0c/sentinel.png?Expires=1835553060&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tQiUlA~MSB6JjQp8KNQdfHUAbLbVLQbvv03r9DdEPkog6Rz9d1aRp7wEPI01Vy3tfP7uTuxlTGN4QSoTv3SI8AoPdC2HcgL~xtkkhVSUABqSIo1HLvTD9gpIR04LoSH88ONnwQt5456~vPo5Ccfm2UWfPKCpP5TvZYAr-12E-hcMN8qwQ7R8oAawR5sSKkmnEfuNboKnzz~4XTQKtD4oNyLJcR1ozH3hggTI57CT6wed2Bzm4ZNard9Oq0scg6cCDyblZGcOaO1B~TqkLN7I0wbGrJAjoC~S-V76a84lkd0u9xLshHA8I2Z~jjwrQP193fWt~zrm4-J5Q8Z~keZCNg__)
+4. Go to conten hub and search for windows security event
+5. select windows security event and click install to install the connector. The Windows Security Events solution for Microsoft Sentinel allows you to ingest Security events from your Windows machines using the Windows Agent into Microsoft Sentinel.
+6. Click on Manage
+7. Select Windows Security Events AMA and click on open connector page from the lower right corner of the page.
+8. Click on Create Data Collection rule. This rule is used by the virtual machine to forward log into our analytics workspaces which lets us access them inside our SIEM
+9. added rule name, added my subscription, and added resources group SOCRG. click on next![GitHub Logo](https://media-hosting.imagekit.io//89ed7d87bd0b46c0/connector%20rule.png?Expires=1835556488&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UJr~ZVKrIIqFpXnEyaeiH-JkdjsEa0seCZQ-zutscgIcdEs0Qu2g9kVZmZqzk3QkB7kDcsCvfAR9KBZSFCKZ3pYBAv1zAoL~qJdy1Ue7swlzVWbwu67NXI-9kkkl96eG5aIxSfoI-gpUCJUrg7aKdxfhqzgNvlCn5fG8V0mjy6TFZw2DJGjfL~cPQTRNzb0yLwFGkc5K89w2hrAsqHCabm2ffjLwQoBsvf3BRXR06VrOkrzfGyYeCi9i2SY7ceifCD8ddo~5Mb7iGzRmxCR87ZmgZGKJRtmESI2Ln8S-8MArtXqktn9Ya6Yi5YuxZGv3kpDcskoRKgS7JOYx7MuwxQ__)
+10. Clicked on drop down on Subscription, resource group and select the Virtual machine OLUVM
+11. Review and create
