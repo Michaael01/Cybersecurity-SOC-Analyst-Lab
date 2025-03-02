@@ -20,7 +20,7 @@ This command help to simulate the creation of administrator account
 
 ### Command and control attack with DNS
 I ran this command to create a scirpt that will simulate a DNS query on a C2 server
-(param(
+- param(
     [string]$Domain = "microsoft.com",
     [string]$Subdomain = "subdomain",
     [string]$Sub2domain = "sub2domain",
@@ -58,4 +58,4 @@ Do {
     $Jitter = ((Get-Random -Minimum -$C2Jitter -Maximum $C2Jitter) / 100 + 1) +$C2Interval
     Start-Sleep -Seconds $Jitter
 }
-Until ($TimeNow -ge $RunEnd))
+Until ($TimeNow -ge $RunEnd)
