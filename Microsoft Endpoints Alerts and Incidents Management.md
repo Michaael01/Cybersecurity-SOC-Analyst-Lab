@@ -17,7 +17,7 @@ On the incident page we can see the evidences that will give more information ab
 3. Scroll down to view the active alert section. This will give us additional information such as the numbers of the active alerts, devices involved in this alerts, and users.
 
 ### See in Timeline
-It is important to investigate with see in timeline in order to see all what had previously happened on the device. From the top right corner of the incident page, we have manage alert, See in timeline and Tune alert
+It is important to investigate with see in timeline in order to see all what had previously happened on the device. From the top right corner of the incident page, we have manage alert, See in timeline and Tune alert.
 click on See in Timeline to see all the processes on the device.
 
 #### Tune Alert
