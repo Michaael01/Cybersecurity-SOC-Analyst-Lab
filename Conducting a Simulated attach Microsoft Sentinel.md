@@ -19,7 +19,7 @@ This command help to simulate the creation of administrator account
 ![GitHub Logo](https://media-hosting.imagekit.io//2b35beed32864efc/temp%20folder%20and%20command%20for%20persistent%20program%20simulation%20and%20priviledge%20elevation%20attack%20with%20user%20add.png?Expires=1835505576&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sskFKv6PEXJUY4ptxQM1u1p0CyOXrd8BNTcWqb6F9Ll8kNF3FURzm6WUJl9MwGKl3xe11we2CDtZjR1qTNSY7Kxu6HnAYlPySjZoVhc~-W58mWV892pFFbqSOAvQkkJgAfn07iQG6~~6XwuN1MHn669ICiIY~4XTPMT69vUL7APrPJ3-i7VhZyf1H9m7Y4iuag8WOivlrtdXA2jQzNa04v44ESz-0GYPxSfQmmvaU04ye3pxnr4AlIC6DOED1UlbiJrLX89XuExY4vr6rF1ZOlRYNjnQ28d7viq9AjLMVG81jtY~5huVmhnPCkUP8fR04FjvC~1tz0vYmlS1VDf4gg__)
 
 ### Command and control attack with DNS
-I ran this command to create a scirpt that will simulate a DNS query on a C2 server
+- I ran this command to create a scirpt that will simulate a DNS query on a C2 server
 - param(
     [string]$Domain = "microsoft.com",
     [string]$Subdomain = "subdomain",
@@ -59,3 +59,7 @@ Do {
     Start-Sleep -Seconds $Jitter
 }
 Until ($TimeNow -ge $RunEnd)
+- From the notepad page that was opened automatically, seect file, then save.
+- I ran the powershell command  _Start PowerShell.exe -file c2.ps1_ in command prompt
+-  I allow this PowerShell script to run in the background. It generated log entries for a few hours. The data created by this task was used in the threat hunting lab.
+
