@@ -6,5 +6,5 @@ In order to perform the task, I had previously connected my machine with Azure A
 1. Created a temp folder file in the root directory with
 - _cd \
 mkdir temp
-1. cd temp_
+cd temp_
    
