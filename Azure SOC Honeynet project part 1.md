@@ -3,7 +3,7 @@
 My topology contains Azure subscription, followed by a Resource group which is in form of cloud  folder for my resources, Vnet, created a vm and attached it to the virtual network and also make the Virtual machine enticing to attackers by turning of the firewall. Created Azure firewall NSG and will be completely open up as well as firewall from windows
 1. Created the ressourse group that will group all my resources
 2. Created virtual network oluwatosinvm-vnet in the same region and attached to SOCRG
-3. Created the virtual machine. attached the vVM to SOCRG and VNET oluwatosinvm-vnet
+3. Created the virtual machine. attached the OluVM to SOCRG and VNET oluwatosinvm-vnet
 4. Opened the VNET Firewall and deleted the default inbound rule for RDP that was listening on port 3389 ![GitHub Logo](https://media-hosting.imagekit.io//01a2891a15854259/remove.png?Expires=1835533577&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=f3Xik1LMNR7hlotRG3RbRdPkzul6u2-Sb4KX1hnlRF59-WhymOIJR2QofZ8u2pdcXdJxbYJp7UosMqBACBugeRBu4GJ~TPawFn6Mx2Ht-oEevXhT-k51NDEeuLpp~u1cirq-4QmhwZEkXFsOPrKzCLpiV2qOoNo59nd8zlf2glDM5J5K24yetqbBGaP80pCaJSwBbYEsepgYWrNlDORQ5kxOGrLbvIpYjp3VWyYYyY-AlzMzTChnKVir2UeMmA2KPq1lthhOJ5aY~-OkRT0r7g6NCEzHmLfQZo1jhT8d75guNHHS~SqcBbdD9WtL4Ol9v39p6X3YWiMPGGOvTvXFIQ__)
 
 ## Create Inbound Rule on Nsg
@@ -16,3 +16,15 @@ My topology contains Azure subscription, followed by a Resource group which is i
 
 ## Disable Internal Windows Firewall from the VM
 
+1. Copy the public IP address from Azure vm
+2. Go to the RDP, apply the IP and login credentials
+3. Go to windows defender firewall with advanced security ![GitHub Logo](https://media-hosting.imagekit.io//e02e699ed644423c/firewall.png?Expires=1835547354&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rJTC93CwiS950bT58~ToLKw5MFHxo3N-IPzMPt6YLg8HLW43GNGWz47Kf50JO3~dctyl2MjybSHk~bsworlCujH5sOI7KLdiQPqCr6tARZhKDOZQzhJpyt5~xjoqL6M6stniM61lFZoiAoLtMUUfrx7KDUkN8O34Qw61JmedpLx81fUNody3f5NSdmSVhIX852fnXSB9T0uydLWHVobiuIcx1cKC8Yj6mjtI1SIALa8ibjSukFqOdQTsHO8oEPXiZXkO-uqt3m9b11fbs~76uYLyJ9as0nfCX4PnekAtg5ejH79YhH6~NQzW7f90QljkfbGaufNb0-nwrJc795s~RA__)
+4. Click windows defender firewall properties
+5. Turn off firewall state for Domain Profile, Private Profile, Public Profile
+6. click on Apply, then Ok. You will recieve a firewall settings notification suggesting to turn on but ignore for now.
+
+### Ping virtual machine
+1. Copied the ip address from azure machine VM
+2. Go to Remote Desktop, open command prompt
+3. pinged 74.234.196.195 from the command prompt. The reason is that if I can ping successfully, then the attackers can as well ping https://media-hosting.imagekit.io//5d83958fa5534b5b/ping.png?Expires=1835547999&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AOnpTvVPzxrDzMyl-HyVWpoo43VyIjCA7m4qc8Q1EwnLdl95ijzOO4TxP9N3muE~iudylAhDCiG3jLzb3u1ZObaw2Z2mLaFSmQUjNlg0CagJRDn93oC7zA26QkvbPa0UJaWWoI3k~N9FJIdkIICEPc~vJuu3v2OJYvXRM1Q9WGIfoqWXA4CoQdi4hSyefIo3EP-NZ5w2cIz5V7~mlC~Kw9bW9jHgLXlhnEkx4hZ0B5pemICRPWJLRdVOBxJZCNRy8l1XUtFm4H7KEQn6S66PXOUSpZU8xgt~yO2EMq55bLm9MWNcstCCBkG9D-xN6xRkWVWlNY4-JZtv0grKzmCuXg__
+4. 
