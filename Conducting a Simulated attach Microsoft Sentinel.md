@@ -60,6 +60,7 @@ Do {
 }
 Until ($TimeNow -ge $RunEnd)
 - From the notepad page that was opened automatically, seect file, then save.
-- I ran the powershell command  _Start PowerShell.exe -file c2.ps1_ in command prompt
+- I ran the powershell command  _Start PowerShell.exe -file c2.ps1_ in command prompt in order to create the dns resolution error.
+- ![GitHub Logo](https://media-hosting.imagekit.io//5a915784106848d6/DNS%20resolution%20error%20for%20simulated%20attacks.png?Expires=1835506537&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=iFMAtzVKOuDIGcfbqWikBCsBN0vyvyfSE8gqqroON3bdVwV9YNsk3z3aSozh~UcKMnqqjjYQO4h6dy0r4I6Grj7b8lBCXnIiILIPtyNboCK4sBM8uXNQpLinyzpZMCdzVkyBO8pm-u1ltiLzNOPvu8Y3T46G~7oKmoBHTbR1Dtv5Oj2mMfFMkeCoctm92No6SrT~2z9Buy9uET76bhVlvH6dVdnLIDNNGdiBLPt0LoSnuwqknLDoNENIqxJcRP-gWurvdqozxhnYr-djeeXYepmcQckDjZEcY~OZunnVit~xhVus1ycLGRkJFHwRlRLpJ~nc0A0gFHkBRuIcEGW7JA__)
 -  I allow this PowerShell script to run in the background. It generated log entries for a few hours. The data created by this task was used in the threat hunting lab.
 
