@@ -30,5 +30,11 @@ My topology contains Azure subscription, followed by a Resource group which is i
 
 #### Viewing raw logs from the Virtual Machine
 1. logout of the VM
-2. Attempt multiple login with wrong credentials such as typing in wrong password ![GitHub Logo](https://media-hosting.imagekit.io//4ed17a0c8d314b0b/wrong%20attempt.png?Expires=1835549388&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Fh7bzcbDN4QEnJKzzDc1YRGCuygxa~5V2Z7xrR4TEmVkUWMbAm7MXLS1BDjMv5OY579bcUGXOWYztwm~ba3bX7lYmxVn5S2Pi6gcChWAgxpCpLDVPCOBLCVTRyToKq2mnY3TwRBVsZcDyH-P3zdNPUeHxo5USpMx9YfaS1wN73Lvl1uu2J46wN8dXCcRbOkDi~uFhksZdDOIe-62Wj~MqFkDgartNyFLJHWWVia3Ax7BANd1yUKiq6N4-GTfvJwr6QGC--gTJMStcEqnD3~2zXV9VAPJcMIy0Nt5WhUKRKEqmaKKukbAkTLTV3ySFiVo0jijqU2z5~lR~3DlcR2-bg__)
+2. Attempt multiple login with wrong credentials such as typing in wrong password before typing in a correct credentials ![GitHub Logo](https://media-hosting.imagekit.io//4ed17a0c8d314b0b/wrong%20attempt.png?Expires=1835549388&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Fh7bzcbDN4QEnJKzzDc1YRGCuygxa~5V2Z7xrR4TEmVkUWMbAm7MXLS1BDjMv5OY579bcUGXOWYztwm~ba3bX7lYmxVn5S2Pi6gcChWAgxpCpLDVPCOBLCVTRyToKq2mnY3TwRBVsZcDyH-P3zdNPUeHxo5USpMx9YfaS1wN73Lvl1uu2J46wN8dXCcRbOkDi~uFhksZdDOIe-62Wj~MqFkDgartNyFLJHWWVia3Ax7BANd1yUKiq6N4-GTfvJwr6QGC--gTJMStcEqnD3~2zXV9VAPJcMIy0Nt5WhUKRKEqmaKKukbAkTLTV3ySFiVo0jijqU2z5~lR~3DlcR2-bg__)
+3. Go to Event viewer, expand windows logs and click on security.
+4. Click on find to search for code "4625". error code 4625 is basic a code for failed logon. So, all attempted logins from the attacker will be logged inside our Event Viewer
+
+##### Creating a Log Repository-Log Analytics Workspace
+
+
 
