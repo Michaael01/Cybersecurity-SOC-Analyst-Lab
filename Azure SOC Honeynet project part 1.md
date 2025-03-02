@@ -35,6 +35,7 @@ My topology contains Azure subscription, followed by a Resource group which is i
 4. Click on find to search for code "4625". error code 4625 is basic a code for failed logon. So, all attempted logins from the attacker will be logged inside our Event Viewer
 
 ##### Creating a Log Repository-Log Analytics Workspace
-
-
-
+The log resipotory will help to forward our logs to Azure
+1. Went to Log Analytic Workspaces and click on creat log analytics workspace and attached it to SocRG resource group
+2. Go to Sentinel and refresh.
+3. Select the Log analytics and click on Add. This will link log analytic workspaces to our SIEM or sentinel instance in order to access the logs in our log repository from SIEM. SIEM will help to collect and analyze data from any source, cloud or on-premise. ![GitHub Logo](https://media-hosting.imagekit.io//67f11e9d32044f0c/sentinel.png?Expires=1835553060&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tQiUlA~MSB6JjQp8KNQdfHUAbLbVLQbvv03r9DdEPkog6Rz9d1aRp7wEPI01Vy3tfP7uTuxlTGN4QSoTv3SI8AoPdC2HcgL~xtkkhVSUABqSIo1HLvTD9gpIR04LoSH88ONnwQt5456~vPo5Ccfm2UWfPKCpP5TvZYAr-12E-hcMN8qwQ7R8oAawR5sSKkmnEfuNboKnzz~4XTQKtD4oNyLJcR1ozH3hggTI57CT6wed2Bzm4ZNard9Oq0scg6cCDyblZGcOaO1B~TqkLN7I0wbGrJAjoC~S-V76a84lkd0u9xLshHA8I2Z~jjwrQP193fWt~zrm4-J5Q8Z~keZCNg__)
