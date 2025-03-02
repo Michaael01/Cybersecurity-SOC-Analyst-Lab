@@ -5,9 +5,13 @@ My topology contains Azure subscription, followed by a Resource group which is i
 2. Created virtual network oluwatosinvm-vnet in the same region and attached to SOCRG
 3. Created the virtual machine. attached the vVM to SOCRG and VNET oluwatosinvm-vnet
 4. Opened the VNET Firewall and deleted the default inbound rule for RDP that was listening on port 3389 ![GitHub Logo](https://media-hosting.imagekit.io//01a2891a15854259/remove.png?Expires=1835533577&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=f3Xik1LMNR7hlotRG3RbRdPkzul6u2-Sb4KX1hnlRF59-WhymOIJR2QofZ8u2pdcXdJxbYJp7UosMqBACBugeRBu4GJ~TPawFn6Mx2Ht-oEevXhT-k51NDEeuLpp~u1cirq-4QmhwZEkXFsOPrKzCLpiV2qOoNo59nd8zlf2glDM5J5K24yetqbBGaP80pCaJSwBbYEsepgYWrNlDORQ5kxOGrLbvIpYjp3VWyYYyY-AlzMzTChnKVir2UeMmA2KPq1lthhOJ5aY~-OkRT0r7g6NCEzHmLfQZo1jhT8d75guNHHS~SqcBbdD9WtL4Ol9v39p6X3YWiMPGGOvTvXFIQ__)
-5. Created another new inboud rule by going to settings, clicked on inbound security rules
+
+# CReat Inbound Rule on Nsg
+5. Created another new inbound rule by going to settings, clicked on inbound security rules
 6. Click add.
 7. Set Source port ranges to any (*).
 8. Set destination port range to any (*).
 9. Set priority to 100 because the lower the priority, the sooner the rule value get evaluated. I left the priority valuea at 100 because it will be the lowest priorty on the list as shown in the picture below.![GitHub Logo](https://media-hosting.imagekit.io//80808ef7775348fe/nsg.png?Expires=1835534171&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bQvRb-Q4LflFjmo3tfe7GQaevUjlAOyUQe60YJLVUw7TZSnmWzFvtUUNGqd5IcxVtgMSGWaT9lfVtoYjAOQv-YsZpFSZ7Kc~RoNeJ2KUVymFtSnzPp3k4LDVHyzeNDXNxc0tRYZD60IW1WPAb1yOYnjtoQaDGFxgJxyjUkIQ2VrksFTNXK8NpG6lq7oGcTqxBxcqudAfN810j2At3~a6Ce6dkRXtRN5SXeVyjdY9~QtSGS~ADJphdOGq5pPWmF6nmYTOZhJolfOpC5ErtcPJ5-Mw2BPYXp0~1cEGT~5H5IvJZvuZi4weRW6srEgSDm-AUnVK9oaR-tumr9aPWMTV~w__)
-10. 
+10. Named it DANGER_AllowAnyCustomAnyInbound in order to make the name more attractive
+
+# Disable Internal Windows Firewall from the VM
