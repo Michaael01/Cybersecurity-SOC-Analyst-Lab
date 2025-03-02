@@ -27,4 +27,8 @@ My topology contains Azure subscription, followed by a Resource group which is i
 1. Copied the ip address from azure machine VM
 2. Go to Remote Desktop, open command prompt
 3. pinged 74.234.196.195 from the command prompt. The reason is that if I can ping successfully, then the attackers can as well ping it. ![GitHub Logo](https://media-hosting.imagekit.io//5d83958fa5534b5b/ping.png?Expires=1835547999&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AOnpTvVPzxrDzMyl-HyVWpoo43VyIjCA7m4qc8Q1EwnLdl95ijzOO4TxP9N3muE~iudylAhDCiG3jLzb3u1ZObaw2Z2mLaFSmQUjNlg0CagJRDn93oC7zA26QkvbPa0UJaWWoI3k~N9FJIdkIICEPc~vJuu3v2OJYvXRM1Q9WGIfoqWXA4CoQdi4hSyefIo3EP-NZ5w2cIz5V7~mlC~Kw9bW9jHgLXlhnEkx4hZ0B5pemICRPWJLRdVOBxJZCNRy8l1XUtFm4H7KEQn6S66PXOUSpZU8xgt~yO2EMq55bLm9MWNcstCCBkG9D-xN6xRkWVWlNY4-JZtv0grKzmCuXg__)
-4. 
+
+#### Viewing raw logs from the Virtual Machine
+1. logout of the VM
+2. Attempt multiple login with wrong credentials such as typing in wrong password ![GitHub Logo](https://media-hosting.imagekit.io//4ed17a0c8d314b0b/wrong%20attempt.png?Expires=1835549388&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Fh7bzcbDN4QEnJKzzDc1YRGCuygxa~5V2Z7xrR4TEmVkUWMbAm7MXLS1BDjMv5OY579bcUGXOWYztwm~ba3bX7lYmxVn5S2Pi6gcChWAgxpCpLDVPCOBLCVTRyToKq2mnY3TwRBVsZcDyH-P3zdNPUeHxo5USpMx9YfaS1wN73Lvl1uu2J46wN8dXCcRbOkDi~uFhksZdDOIe-62Wj~MqFkDgartNyFLJHWWVia3Ax7BANd1yUKiq6N4-GTfvJwr6QGC--gTJMStcEqnD3~2zXV9VAPJcMIy0Nt5WhUKRKEqmaKKukbAkTLTV3ySFiVo0jijqU2z5~lR~3DlcR2-bg__)
+
