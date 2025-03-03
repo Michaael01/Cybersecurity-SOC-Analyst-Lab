@@ -51,5 +51,9 @@ The log resipotory will help to forward our logs to Azure
 13. Go to logs and type _SecurityEvent_ in order to view the windows log. The logs are forwarded using the Azure Monitoring Agent into the central log repository called Log Analytics Workspace  ![GitHub Logo](https://media-hosting.imagekit.io//c3c3e2efb0a843b7/sec%20event.png?Expires=1835587517&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZpOJX~rRKwCOga3frYGA~8hOVkyiLK00hI5Kfaln7-6qfyqknrBXkFjJkFB5of4h4d0IixvSW3mU2Uc~Cgwu1gavTNyNwjRLMtA59eda2nFDNt~lV1eOHdiTHAzx1Lqv~4McEFDOlmB3pA78~ecLWPcRogrQCDhxEF2CLQKv8YeDwp-F7zB9SA0n9y3cUGCgeQ8R4wH7jViLjVVmpHbAd4NLq7UKirPpL2Le4M3-XuRFy5MMck6PiYYCrhS1WJK0UL6KuOUb6u84XzZvUhXZrB8Yw5CWXibAN-r-cSJzFwtjtfcX7nG5IJyV3uQxEApWgm8S09xgRkONFZ804RMzpw__)
 
 ###### Querying My Log Repository with KQL
-The Kql helps to filter out the informations we want to see from the our data. for example
+The Kql helps to filter out the informations we want to see from the our data. for example.
+-  SecurityEvent
+- | where Account == "\\ADMIN"
+- click on #Run and it will show only the records that have that name \ADMIN.
+- we can filter down with how much data to be displayed by using #PROJECT
     
