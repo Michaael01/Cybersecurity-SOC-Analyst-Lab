@@ -54,6 +54,6 @@ The log resipotory will help to forward our logs to Azure
 The Kql helps to filter out the informations we want to see from the our data. for example.
 -  SecurityEvent
 - | where Account == "\\ADMIN"
-- click on #Run and it will show only the records that have that name \ADMIN.
-- we can filter down with how much data to be displayed by using #PROJECT
+- click on # Run and it will show only the records that have that name \ADMIN.
+- we can filter down with how much data to be displayed by using # PROJECT
     
