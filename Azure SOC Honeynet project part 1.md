@@ -85,4 +85,20 @@ I uploaded by:
 4. On searchKey drop down, select Network
 5. Click on review and create. This automatically took me to the watchlist page and will take some time to fully upload
    
-## Inspecting Logs to Detect Attackers Locations
+## Inspecting Logs to Detect Attacker Locations
+1. Go to Microsoft sentinel and open Logs
+2. Query _SecuritEvent_ table
+3. Type _GetWatchlist("geoip") , click Run ![GitHub Logo](https://media-hosting.imagekit.io//0be402f6d3994f29/geoip.png?Expires=1835642038&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=S3-DRMoXqZ~ne1wd0vZjSNUyTgTtooGGEnKur~DBqs436pK17DMbMOoUxSrFI586L~RccsSOdAER0cPpRVjd31MVl4pRqjDzW~GyGoWWZQ~PSksEE9d3r9d0Cflxn2Mp6Qwsv3PAxPeHxnq4EsaIyutglLuklHnBl7NE3OkMVxtG8tcFJ6DCu-UtIzkUk~1sk~N63l4Ygrrb24XeZpo5qkmkJWJF4d3xBHHP9l7IfBFBouee0naA~iaqEinvRPhjvIZTM5BqQoTBqaLEDl-MdLFLNrdtlZ8ybqjMfu2z4N0XiLZFUsQlJOOsJcxs7wye7yQDmnyfY4co1Ikgih43MA__)
+- as shown in the above picture, the actual watchlist was generated into Azure. I now have the network column, the longitude, the latitude, city name, country name, unique identifier, time generate, searchKey. This will help us to know more about where the attacks are coming from.
+- If I type:
+-  SecurityEvent
+| where EventID == 4625
+- I copied one of ipaddress and pasted it in the qeury below.
+- let GeoIPDB_FULL = _GetWatchlist("geoip");
+let WindowsEvents = SecurityEvent
+    | where IpAddress == "129.146.46.79"
+    | where EventID == 4625
+    | order by TimeGenerated desc
+    | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
+WindowsEvents
+- 
