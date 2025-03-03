@@ -95,10 +95,12 @@ I uploaded by:
 | where EventID == 4625
 - I copied one of ipaddress and pasted it in the qeury below.
 - let GeoIPDB_FULL = _GetWatchlist("geoip");
-let WindowsEvents = SecurityEvent
-    | where IpAddress == "129.146.46.79"
-    | where EventID == 4625
-    | order by TimeGenerated desc
-    | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
-WindowsEvents
-- 
+- let WindowsEvents = SecurityEvent
+-     | where IpAddress == "129.146.46.79"
+-     | where EventID == 4625
+-     | order by TimeGenerated desc
+-     | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
+- WindowsEvents
+- This will give me access to locational data and can see where the attacker is coming from and can always project timegenerated, the computer. ipadress, cityname etc. as shwon below
+
+  ![GitHub Logo](https://media-hosting.imagekit.io//a6c6e231c3d84484/locational%20data.png?Expires=1835643865&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zsh2qRk960CLNI85OOQBn4mNQES0e6MHzVG-CrOxABtKsSZSoJpW~tUYRyVLMyrzZv~BtjYOB5TAcPo6cDoMCQDO1NUDYmKfwfjfeW4hdVI4Cf9i4U67bGjNWwDPoaTfY4ILbMX92nUCHI7tnvm7ZUIGN5M0EJD28SqudGcBsOT8FtNJYW3h7kehznBljl2Z~t1PaVGGnnFtuN~xaErQ1w4oAS~vlGe6I0yTrWOdBABqKoTN3-epqKgtdjQCiox6hzhRv7MK~NoBXpWOmxFiXSJ8yDiw58HIm~~vt396EY4QB3hocroQQ0IY-A6uanu1ltjuKYuqRgX4oVXL8gQOnw__)
