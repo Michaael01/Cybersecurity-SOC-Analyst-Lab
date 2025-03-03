@@ -56,4 +56,33 @@ The Kql helps to filter out the informations we want to see from the our data. f
 - | where Account == "\\ADMIN"
 - click on # Run and it will show only the records that have that name \ADMIN.
 - we can filter down with how much data to be displayed by using # PROJECT
-    
+- SecurityEvent
+| where Account == "\\ADMIN"
+| project TimeGenerated, Account, Computer, EventID, Activity, IpAddress
+![GitHub Logo](https://media-hosting.imagekit.io//708ed038f6724e10/project.png?Expires=1835634393&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jGBHaRoBHdg5G6H35LcDQ4Wvn9PYY1A~PbC3DEtl~06VoH5-3r~HeY85JpV1JE93CnzLHXSuSZezgextNl30YERt114ULuzWPXftFzM-FUZLSewak8TmtgcEKScZ7gw6gmpcProiGrPnWNPVDvUOvsTKQLSaj2TSpe7YLlYlBYI8trnyVRQbrX30Ynodrk0nAflfF1Ziog4kXwGHVfHbNN6x9Uybmwc41cAyoErbA5H2tGFfV5xlwQXR7OVZsqnZqSl0u4WgoRtKWvwWT4u~xZERmTInfo9V-0Ac3JXn8A6PZmzSQDgOWPAhfnr57CiCdQYcY6hrEIiQH6cIfS1lzw__)
+
+- This will display the account with all the feeds that was projected. I can see from the ipaddress 221.0.90.67 that someone from the internet is trying to access my machine. I copied the address and looked it up by typing geolookup 221.0.90.67 to google which shows that someone from Chinais trying to access my machine.
+
+- To check failed logon, I used kql command:
+- SecurityEvent
+| where EventID == 4625
+| project TimeGenerated, Account, Computer, EventID, Activity, IpAddress
+
+![GitHub Logo](https://media-hosting.imagekit.io//1b3ecfcf55664ef9/failed%20logo.png?Expires=1835634906&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aFmjtr8xNMZFspwwpH~4rTYLLWhMjzT-rSyniPBxYfDz7M-esARKZLzl1DjjR3HauyW9GaOElyOGISMH2wZW-5lBglMX2l~g1zpxfjTOYmyEHthiQzeKo62MwjrhQ3g0W907QHfi10fSI4d~79gmALOakxWkM6dE55WvLICqxgvgYHJoe978PLUr54UYfl9Wa9UFn5HzgQpmCms0he5iB3oXT2Y4x~Gl55DToj9n4Ui0kQAUQpSG~Lsz4FUY3S5uI2BopL8FpmWxS6um697UZ1LyB7wY96IbWoGwVfYxwe5r0E6-ZM8mL8Tn9FgvI-5~fRz65eviRT4~jcLy41MlaQ__)
+- This will display all failed logon attempt based on the the projected column and I was able to detect 315 failed logon attempt within a short period.
+- We may want to know the time period a certain event happened for example, last 10 min by typing the command below.
+- SecurityEvent
+| where EventID == 4625
+| where Timegenrated > ago(10)
+| project TimeGenerated, Account, Computer, EventID, Activity, IpAddress
+
+# Upload Geolocation to the SIEM
+This will resolve ip address to physical location on the map. I uploaded  a geoip summarized cvs file with different address ranges in the world with latitude, longitue, cityname and courtyname. The sentinel will look into the ipaddress land of the attacker and will map it.
+I uploaded by:
+1. Downloaded geoip-summarized csv file from https://drive.google.com/file/d/13EfjM_4BohrmaxqXZLB5VUBIz2sv9Siz/view?usp=sharing
+2. Went to Sentinel and clicked on watchlist
+3. Click on New. under general, let Name = geoip, Alias = geoip and click next to open source page and browse the csv file. ![GitHub Logo](https://media-hosting.imagekit.io//24ccba8d4d9b4438/geoip.png?Expires=1835640069&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tFagA4EfiZ7pyDvqmFRJ4FEljqRRviv8GEarX1dfUQIzbHpMuS5r5Nrj12PeOFja-ADmZJKIE1~jfpZtSCAMg63iVxegezWpJKwH7EcQny8qRgV4TJ2g~oTF2XKKO2EyMif6rYsVvEFeGFBb9pD-0OHeUJQ2feFNMan3uvflJdImXTXNuMh2UZTwppC7JA6K3hjcfYd1ltx8YT3N17exrY79kqywv9m7mAd7ZVxHVT3lj5kp~4onQCxo4QHh9pPJ7PXzyJ~c2Lel8nQzr5gRyyDuN2GOlnPYrBzi9Hz9DOpssrn~pA6OjREiUynQRImjPe4ltr1xLfNszKZLjQT1pg__)
+4. On searchKey drop down, select Network
+5. Click on review and create. This automatically took me to the watchlist page and will take some time to fully upload
+   
+## Inspecting Logs to Detect Attackers Locations
