@@ -101,6 +101,17 @@ I uploaded by:
 -     | order by TimeGenerated desc
 -     | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
 - WindowsEvents
-- This will give me access to locational data and can see where the attacker is coming from and can always project timegenerated, the computer. ipadress, cityname etc. as shwon below
+- This will give me access to locational data and can see where the attacker is coming from and can always project to get more information about the attackers with timegenerated, the computer, Attackerip = ipadress, cityname etc. as shwon below
 
-  ![GitHub Logo](https://media-hosting.imagekit.io//a6c6e231c3d84484/locational%20data.png?Expires=1835643865&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zsh2qRk960CLNI85OOQBn4mNQES0e6MHzVG-CrOxABtKsSZSoJpW~tUYRyVLMyrzZv~BtjYOB5TAcPo6cDoMCQDO1NUDYmKfwfjfeW4hdVI4Cf9i4U67bGjNWwDPoaTfY4ILbMX92nUCHI7tnvm7ZUIGN5M0EJD28SqudGcBsOT8FtNJYW3h7kehznBljl2Z~t1PaVGGnnFtuN~xaErQ1w4oAS~vlGe6I0yTrWOdBABqKoTN3-epqKgtdjQCiox6hzhRv7MK~NoBXpWOmxFiXSJ8yDiw58HIm~~vt396EY4QB3hocroQQ0IY-A6uanu1ltjuKYuqRgX4oVXL8gQOnw__)
+ ![GitHub Logo](https://media-hosting.imagekit.io//bd97f703d555485f/attacker%20ip.png?Expires=1835644310&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=U9YfoHG-cfzVNg2GlPYUCPHXzcGL51rUziVml9FNv-SAQK9otq-2dzcmRON9Q2IW9Ew~I7LFrM6iXsAA3CiSIE4FJwqD71eZ0fXmvux510wXmfznxpunshYVoipJTB1oWxt2ZwT2k3w~BJYTAOS4lNvloh031VUlULaDII2Mj92-RzT9W08qilksohGDnShRczD5kGVfBCVJsmGCXn8otyL~n-fCS~41lrpaHs5Itv0KXuVzpwD-3HyVIku9MqslncN0pRsOf9mDjmENdsrB2FCkU3rh8JW03~FzLSdQjaMwJxuz5IfOzEbjbEe217Y0EgSO2gqfQufO78dnQLepNw__)
+
+# Creating Attack Map
+1. Went to Microsoft sentinel and clicked on workbooks
+2. click on Add Workbooks and click on edit
+3. Removed all prepopulated elements by clicking on the (...), remove.
+4. Openend the content on of this JSON FILE https://drive.google.com/file/d/1ErlVEK5cQjpGyOcu4T02xYy7F31dWuir/view?usp=drive_link and copied all.
+5. Went back to my sentinel workbook page, clicked on add and from the drop down, selected add query
+6. Click advanced editor, removed the contents and paste the Json script ![GitHub Logo](https://media-hosting.imagekit.io//343e835c60874a0c/json.png?Expires=1835644854&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ls7itK2D90dlcF8RKewGlDDqmyPnfc7klXSt~oVoffQK7zFsriCh6Opa7wMYVrzhGqGWB9hh6hT1TwFPGpeuVjz-D2EQIfwmw8FDVfyBwuBJzKAdWfVhF2ia8Hp0F9KhrhqwnBapWdDVos90my2Pvn4OXNDfLMucBHHASJA5g~g0KQ5aA26RrOLe2tqiaahqbZGmlyik7vwhDqDjBXytLxkRGXqmxjJ37K7~yezTxuup-tL4ITPsQQW4ABZK5oq~uWwFcEL7FTrvTLlKGRPICZMV27OSTwx0zYd3tcBoTcXvlp0yRpil4xeMNLr-rshsIFwkWIyL-mSt3rrW2pxMjw__)
+7. Click on done editing. This will automatically create the map for us.
+8. Clicked on save, Name = windows Evnt Attck Map, added to the resource group  and saved.
+9. I as well have the oppotunity to edit and apply settings based on how I want the map to be displayed such as colour type, metric label, country. The attack map keeps changing overtime and will as shown below, I have the attack map of my VM after 24 hours
