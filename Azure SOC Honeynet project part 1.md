@@ -1,6 +1,7 @@
 ![GitHub Logo](https://media-hosting.imagekit.io//4c0ea0bc78524599/topology.png?Expires=1835646182&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=kgzd00L-Re8gscHJb9mr80EkKwMrlFeulpokq8feV0U54UhRXT5M8U-Bq6ET5J768Qr7XcWVdvkA3qQe-p~iYfE8FXXuxOag8Fb4p8E6Mw5DAiQCQ~7MNkNTPGQ9k1ixG4RAlzWTRrOuuu4fBtyKuxHvjnEYBGeqW9rg5N~3cPLLQqFeCCv58-gB8HOCLmwSVO3FUqhawZg5qs2aRQwAqvM-n1GhKvrTZ78neYvZwakUVNngEH9VODCc9kFs-zkYTNizIjnQywUArMXvpGgW6AjANY7Ou2Z5tJdZse-UJlui7eKEzmo~9JriVsRlCAbLx-i1FiLO2tPQWTY3uNSqTw__)
-# Honeynet Project
-My topology contains Azure subscription, followed by a Resource group which is in form of cloud  folder for my resources, Vnet, created a vm and attached it to the virtual network and also make the Virtual machine enticing to attackers by turning of the firewall. Created Azure firewall NSG and will be completely open up as well as firewall from windows
+# Honeynet Project Description
+My topology contains Azure subscription, followed by a Resource group which is in form of cloud  folder for my resources, Vnet, created a vm and attached it to the virtual network and also make the Virtual machine enticing to attackers by turning of the firewall. Created Azure firewall NSG and will be completely open up as well as firewall from windows. By leveraging Azure Log Analytics Workspace and Azure Sentinel, SIEM, geographical IP I was able to collect, aggregate, and visualize attack data effectively. I enjoyed embarking on this project, and I hope anyone reading this appreciates will like it as well.
+
 1. Created the ressourse group that will group all my resources
 2. Created virtual network oluwatosinvm-vnet in the same region and attached to SOCRG
 3. Created the virtual machine. attached the OluVM to SOCRG and VNET oluwatosinvm-vnet
