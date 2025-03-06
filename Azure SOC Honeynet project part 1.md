@@ -138,7 +138,8 @@ I uploaded by:
   - Audit Windows machines that allow re-use of the passwords after the specified number of unique passwords
   - Strong Password Policies: Enforcing a rigorous password policy mandates the use of complex passwords that incorporate uppercase and lowercase letters, numbers, and special characters. This approach significantly enhances security and diminishes susceptibility to brute force attacks. Geographical Restrictions: Block or restrict access based on geographical locations that do not correspond to your organization's operational areas.
   - Account Lockout Mechanisms: Implement account lockout policies that temporarily disable accounts after a set number of failed login attempts, deterring repeated brute force attempts.
-3. Enabled Windows Security firewall state for Domain Profile, Private Profile, Public Profile
+3. Enabled Windows Security firewall state for Domain Profile, Private Profile, Public Profile.
+4. Configured NSG to block all traffic with an exemption to administrators workstations.
 
 ![GitHub Logo](https://media-hosting.imagekit.io//e6a427c359cd460d/Hardening%20result.png?Expires=1835904953&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EVZJKNjoXMobwoDl9Vei8~SCYPQs8YdkIrFzxVS2RVKM2jHgB0qA-Rbw7y2qHYJnNqXcZ6jfGvPPY73Xwua3Xm-jUsq-dn-4H9J31om0dzz3earJk0zWbLhwhYKdP8qYkPNcQX6Pj966BviK1TjxLJdmc~RuTj77bhe3Z4J-b6JaL4LJo6RZ5OYwumXTeTjDsSa6w5UoY1ZzXCigS1VYihSPvQwferF9P9bHaHCml9t4CaujA8cETDKWhyye0WyLKMi7fuqV9ZHw1NQAKxvTitjxcDoXCikZEm3L6WVDJHd4-qRPIm1uiDRB8zh3OxdrnDNtFmV8qh3wB3qRZO-UXQ__)
 
