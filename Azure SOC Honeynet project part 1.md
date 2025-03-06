@@ -116,3 +116,13 @@ I uploaded by:
 7. Click on done editing. This will automatically create the map for us.
 8. Clicked on save, Name = windows Evnt Attck Map, added to the resource group  and saved.
 9. I as well have the oppotunity to edit and apply settings based on how I want the map to be displayed such as colour type, metric label, country. The attack map keeps changing overtime and will as shown below, I have the attack map of my VM after 8 hours. ![GitHub Logo](https://media-hosting.imagekit.io//00b0d608e7974e0b/map%20attack.png?Expires=1835669668&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=A6fwyfHahdziBjSm5DMfynusuXiCSXu4wp7qmzccWvuxSD7wikheXZi0eYnhUTt26D32dPgGnIESgBjbV~i0OEVjSj3o5~3HFiGkR9wBKulb5LEyDPC6MBenWlNAmCEsLD6Ra6~zSXJyzDdhjfVJLT6OgaZorZydiKJtlcT1QbCXEmhqlc7hKImLK8cK1i8hz9tbfny~SGQDMb9XUjHwRLRAwamQVm0PPnUAgostFnNdA31gcW--icTL0m0Du4ZiVYJ6oeAWq9UMz2-5ToGbSW~oOCRAIBqO105qcP-9kfVrd2JZo5u3BBZG5u5oCBD6osKlMNNwVwXHgQfVce76ew__)
+
+# Metrics Before Hardwening/Security Controls
+
+| StartTime 2025-03-05 19:43:26
+| StopTime  2025-03-06 19:43:26
+- SecurityEvent Windows VM  5699
+- Syslog   0
+- SecurityAlert   0
+- SecurityIncident   0
+- AzureNetworkAnalytics   0
