@@ -126,3 +126,24 @@ I uploaded by:
 - SecurityAlert   0
 - SecurityIncident   0
 - AzureNetworkAnalytics   0
+
+## Steps to Hardening
+1. Security Posture Recommendation
+- Configured windows server to use communication Protocols: To protect the privacy of information communicated over the Internet, your servers should use the latest version of the industry-standard cryptographic protocol, Transport Layer Security (TLS). TLS secures communications over a network by using security certificates to encrypt a connection between machines.
+- Installed Guest Extension on VM: to allow Microsoft Defender for Cloud to proactively attest and monitor the boot integrity. Once installed, boot integrity will be attested via Remote Attestation. This assessment applies to Trusted Launch and Confidential Windows virtual machines.
+- Enabled Azure Backups: Azure Backup is a cost-effective data protection solution native to Azure that safeguards data on Azure virtual machines. It creates recovery points stored in geo-redundant recovery vaults, allowing for the restoration of either the entire VM or specific files.If Azure Backup is not enabled, data loss may occur without the possibility of recovery, posing a significant risk to business continuity and data integrity.
+- Closed management ports
+2. Regulatory Compliance based on ISO 27001:2013 recommendations
+  - password age set to specified number of days with 30 days
+  - Audit Windows machines that allow re-use of the passwords after the specified number of unique passwords
+  - Strong Password Policies: Enforcing a rigorous password policy mandates the use of complex passwords that incorporate uppercase and lowercase letters, numbers, and special characters. This approach significantly enhances security and diminishes susceptibility to brute force attacks. Geographical Restrictions: Block or restrict access based on geographical locations that do not correspond to your organization's operational areas.
+  - Account Lockout Mechanisms: Implement account lockout policies that temporarily disable accounts after a set number of failed login attempts, deterring repeated brute force attempts.
+3. Enabled Windows Security firewall state for Domain Profile, Private Profile, Public Profile
+
+![GitHub Logo](https://media-hosting.imagekit.io//e6a427c359cd460d/Hardening%20result.png?Expires=1835904953&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EVZJKNjoXMobwoDl9Vei8~SCYPQs8YdkIrFzxVS2RVKM2jHgB0qA-Rbw7y2qHYJnNqXcZ6jfGvPPY73Xwua3Xm-jUsq-dn-4H9J31om0dzz3earJk0zWbLhwhYKdP8qYkPNcQX6Pj966BviK1TjxLJdmc~RuTj77bhe3Z4J-b6JaL4LJo6RZ5OYwumXTeTjDsSa6w5UoY1ZzXCigS1VYihSPvQwferF9P9bHaHCml9t4CaujA8cETDKWhyye0WyLKMi7fuqV9ZHw1NQAKxvTitjxcDoXCikZEm3L6WVDJHd4-qRPIm1uiDRB8zh3OxdrnDNtFmV8qh3wB3qRZO-UXQ__)
+
+### Conclusion
+
+The project is important in the world of cybersecurity in the cloud environment. The project took place with Microsoft Azure, ingesting multiple logs into Log Analytics Workspaces. Alert and incidents was generated with the help of microsoft sentinel that was deployed.
+The project was in two faces. The first face is where the environment was left unprotected and the second phase where the a security control was put in place which later show a significant reduction in the number of brute force attacks.
+Therefore, the project demonstrated the importance of continous monitoring and adaptation responses to user activities and devices in our organization.
