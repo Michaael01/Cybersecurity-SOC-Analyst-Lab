@@ -14,6 +14,15 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/joshmadakor0/threat-hunting-scenario-tor)**
 
+# PROJECT 2
+
+# SC 200 Project: Microsoft Security Opertaions Analyst
+
+## Step 1: PROJECT
+1. Defender for Endpoint
+2. Explore Defender XDR
+3. Defender for cloud
+4. Microsoft Sentinel
 <hr/>
 
 ## 🤳 Connect With Me
@@ -26,13 +35,3 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 <img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
 <img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
 
-
-# PROJECT 2
-
-# SC 200 Project: Microsoft Security Opertaions Analyst
-
-## Step 1: PROJECT PAGES
-1. Defender for Endpoint
-2. Explore Defender XDR
-3. Defender for cloud
-4. Microsoft Sentinel
