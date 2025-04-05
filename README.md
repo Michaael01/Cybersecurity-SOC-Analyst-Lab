@@ -8,7 +8,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 ## ⚠️ Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/Michaael01/vulnerability-management-program)**
-- **[Threat Hunting Devices Accidentally Exposed to the Internet](https://github.com/Michaael01/Michaael01/Devices-Accidentally-Exposed-to-the-Internet)**
+- **[Threat Hunting Devices Accidentally Exposed to the Internet](https://github.com/Michaael01/Threat-Hunting-Devices-Accidentally-Exposed-to-the-Internet)**
 - **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
 
 ## 🚨 Threat Hunting and Security Operations
