@@ -10,8 +10,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[Vulnerability Management Program Implementation](https://github.com/Michaael01/vulnerability-management-program)**
 - **[Threat Hunting Devices Accidentally Exposed to the Internet](https://github.com/Michaael01/Threat-Hunting-Devices-Accidentally-Exposed-to-the-Internet)**
 - **[Threat Hunting: Sudden Network Slowdowns](https://github.com/Michaael01/Threat-Hunting-Sudden-Network-Slowdowns)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/Michaael01/Programmatic-Vulnerability-Remediations-PowerShell-and-BASH-)**
+
 
 ## 🚨 Threat Hunting and Security Operations
 
