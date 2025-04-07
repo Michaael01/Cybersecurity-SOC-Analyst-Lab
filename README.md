@@ -13,7 +13,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 - **[Threat Hunting Devices Accidentally Exposed to the Internet](https://github.com/Michaael01/Threat-Hunting-Devices-Accidentally-Exposed-to-the-Internet)**
 - **[Threat Hunting: Sudden Network Slowdowns](https://github.com/Michaael01/Threat-Hunting-Sudden-Network-Slowdowns)**
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Michaael01/Threat-Hunting-Scenario-Tor-Browser-Usage-Project)**
+- Final Project **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Michaael01/Threat-Hunting-Scenario-Tor-Browser-Usage-Project)**
 
 
 <hr/>
