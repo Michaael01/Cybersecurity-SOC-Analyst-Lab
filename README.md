@@ -22,7 +22,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 [<img align="left" alt="___________ | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-[linkedin]: https://linkedin.com/in/oluwatosin-michael-adeniyi-586005190
+[linkedin]: www.linkedin.com/in/-michael-o-adeniyi
 
 <!--
 <img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
