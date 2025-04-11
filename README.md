@@ -10,7 +10,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[Vulnerability Management Program Implementation](https://github.com/Michaael01/vulnerability-management-program)**
 
 ## 🚨 Threat Hunting and Security Operations
-- **[Incedent Response: Impossible Travel ](https://github.com/Michaael01/Incedent-Response-Impossible-Travel)
+- **[Incedent Response: Impossible Travel ](https://github.com/Michaael01/Incedent-Response-Impossible-Travel)**
 - **[Threat Hunting Devices Accidentally Exposed to the Internet](https://github.com/Michaael01/Threat-Hunting-Devices-Accidentally-Exposed-to-the-Internet)**
 - **[Threat Hunting: Sudden Network Slowdowns](https://github.com/Michaael01/Threat-Hunting-Sudden-Network-Slowdowns)**
 - Final Project **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Michaael01/Threat-Hunting-Scenario-Tor-Browser-Usage-Project)**
