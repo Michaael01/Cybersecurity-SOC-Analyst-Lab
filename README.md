@@ -15,6 +15,9 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[Threat Hunting: Sudden Network Slowdowns](https://github.com/Michaael01/Threat-Hunting-Sudden-Network-Slowdowns)**
 - Final Project **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Michaael01/Threat-Hunting-Scenario-Tor-Browser-Usage-Project)**
 
+## 🚨 Incident Response, SIEM
+- **[Azure SOC HoneyPot project](https://github.com/Michaael01/SOC-Analyst-Lab/blob/main/Azure%20SOC%20Honey%20Pot%20project.md)**
+
 
 <hr/>
 
