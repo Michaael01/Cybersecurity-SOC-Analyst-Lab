@@ -17,7 +17,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 ## 🚨 Incident Response, SIEM
 - **[Azure SOC HoneyPot project](https://github.com/Michaael01/SOC-Analyst-Lab/blob/main/Azure%20SOC%20Honey%20Pot%20project.md)**
-- **[Setting up Splunk SIEM: Atacking and Remediating it (Live Traffic)](https://github.com/Michaael01/vulnerability-management-program)**
+- **[Setting up Splunk SIEM: Atacking and Remediating it (Live Traffic)](https://github.com/Michaael01/Setting-up-Splunk-SIEM-Attacking-and-Remediating-it)**
 
 
 <hr/>
