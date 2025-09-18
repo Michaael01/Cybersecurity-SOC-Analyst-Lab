@@ -23,6 +23,8 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 ## 🚨 Wireshark
 - **[ICMP Protocol Analysis](https://github.com/Michaael01/Wireshark)**
 
+**[TCP Protocol Analysis](https://github.com/Michaael01/TCP-Protocol-Analysis)**
+
 <hr/>
 
 ## 🤳 Connect With Me
