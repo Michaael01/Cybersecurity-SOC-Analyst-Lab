@@ -25,6 +25,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 - **[TCP Protocol Analysis](https://github.com/Michaael01/TCP-Protocol-Analysis)**
 
+- **[HTTP Protocol Analysis](https://github.com/Michaael01/HTTP-Protocol-Analysis)**
 <hr/>
 
 ## 🤳 Connect With Me
