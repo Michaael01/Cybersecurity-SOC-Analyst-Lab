@@ -19,7 +19,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[Azure SOC HoneyPot project](https://github.com/Michaael01/SOC-Analyst-Lab/blob/main/Azure%20SOC%20Honey%20Pot%20project.md)**
 - **[Setting up Splunk SIEM: Atacking and Remediating it (Live Traffic)](https://github.com/Michaael01/Setting-up-Splunk-SIEM-Attacking-and-Remediating-it)**
 - **[LetsDefend LAB: SOC342 CVE-2025-53770 SharePoint Exploit ToolShell](https://github.com/Michaael01/LetsDefend--SOC-342-CVE-2025-53770-SharePoint-Exploit-ToolShell)**
-
+- **[LetsDefend LAB: SOC176 Investigating RDP Brute Force Detected](https://github.com/Michaael01/LetsDefend-SOC176-Investigating-RDP-Brute-Force-Detected)**
 
 
 ## 🚨 Wireshark
