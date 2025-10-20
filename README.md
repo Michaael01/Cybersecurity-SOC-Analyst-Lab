@@ -21,6 +21,8 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[LetsDefend LAB: SOC342 CVE-2025-53770 SharePoint Exploit ToolShell](https://github.com/Michaael01/LetsDefend--SOC-342-CVE-2025-53770-SharePoint-Exploit-ToolShell)**
 - **[LetsDefend LAB: SOC176 Investigating RDP Brute Force Detected](https://github.com/Michaael01/LetsDefend-SOC176-Investigating-RDP-Brute-Force-Detected)**
 - **[LetsDefend LAB: SOC282 - Phishing Alert - Deceptive Mail Detected](https://github.com/Michaael01/LetsDefend-SOC282-Phishing-Alert-Deceptive-Mail-Detected)**
+- - **[LetsDefend LAB: SOC138 Detected Suspicious Xls File](https://github.com/Michaael01/LetsDefend-SOC138-Detected-Suspicious-Xls-File)**
+
 
 ## 🚨 Wireshark
 - **[ICMP Protocol Analysis](https://github.com/Michaael01/Wireshark)**
